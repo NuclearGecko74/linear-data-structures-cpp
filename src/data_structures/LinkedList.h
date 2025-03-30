@@ -18,6 +18,15 @@ public:
 	void Append(int value);
 
 	void DeleteLast();
+	void DeleteFirst();
+
+	Node* get(int index);
+	bool set(int index, int value);
+
+	bool Insert(int index, int value);
+	void DeleteNode(int index);
+
+	void Reverse();
 
 	void PrintList();
 

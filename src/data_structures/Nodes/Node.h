@@ -10,6 +10,8 @@ public:
 	Node(int value);
 	Node(int value, Node* next);
 
+	inline int getValue() const { return value; }
+
 public:
 	friend class LinkedList;
 };
