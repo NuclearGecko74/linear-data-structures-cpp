@@ -21,9 +21,15 @@
     <ClCompile Include="src\data_structures\LinkedList.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\data_structures\Nodes\Node.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\data_structures\LinkedList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\data_structures\Nodes\Node.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
